@@ -1,0 +1,17 @@
+.DS_Store
+KuroCat.app/
+LiveDemos/
+windows/*.exe
+windows/*.res
+windows/*.obj
+windows/*.o
+windows/*.pdb
+windows/puppy_res.o
+windows/build/
+windows/skin/_*_orig.png
+linux/kurocat
+linux/*.deb
+linux/*.tar.gz
+preview.png
+preview_siamese.png
+*.log

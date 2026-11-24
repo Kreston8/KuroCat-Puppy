@@ -1,0 +1,19 @@
+// 小金毛皮肤贴图资源（PNG 序列帧，路径相对本文件目录）
+#include "..\src\PuppySkinRes.h"
+
+// 程序/桌面图标：idle.png 的狗头裁切，多尺寸（16/20/24/32/40/48/64/96/128/256）
+IDI_PUPPY_APPICON   ICON "puppy_head.ico"
+
+IDR_PUPPY_IDLE      RCDATA "idle.png"
+IDR_PUPPY_LOOKUP    RCDATA "look_up.png"
+IDR_PUPPY_LOOKDOWN  RCDATA "look_down.png"
+IDR_PUPPY_HAPPY     RCDATA "happy.png"
+IDR_PUPPY_HUNT      RCDATA "hunt.png"
+IDR_PUPPY_TYPE      RCDATA "type.png"
+IDR_PUPPY_BLINK     RCDATA "blink.png"
+IDR_PUPPY_GAZE_L_UP   RCDATA "gaze_l_up.png"
+IDR_PUPPY_GAZE_L_MID  RCDATA "gaze_l_mid.png"
+IDR_PUPPY_GAZE_L_DOWN RCDATA "gaze_l_down.png"
+IDR_PUPPY_GAZE_R_UP   RCDATA "gaze_r_up.png"
+IDR_PUPPY_GAZE_R_MID  RCDATA "gaze_r_mid.png"
+IDR_PUPPY_GAZE_R_DOWN RCDATA "gaze_r_down.png"
