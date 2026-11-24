@@ -54,9 +54,17 @@ The work is in the Windows renderer: the skin went from "shapes drawn in code" t
 ## Download
 
 1. Open [**Releases**](https://github.com/Kreston8/KuroCat-Puppy/releases/latest)
-2. Download `小金毛桌宠.exe` (the filename is Chinese; the app itself is portable)
+2. Download `GoldenPuppy-DesktopPet-v1.0.0.exe` (GitHub only accepts ASCII asset names; rename it freely after downloading)
 3. Run it. Windows 10 / 11 x64, no install, no redistributables.
 
+SHA256 (check with `Get-FileHash .\GoldenPuppy-DesktopPet-v1.0.0.exe -Algorithm SHA256`):
+
+```
+07EC06B19D5E426C31586F79E26C4A94289058E403175F438BAA0E98F538965F
+```
+
+> SmartScreen may warn on first run because the exe is not code-signed: choose *More info → Run anyway*.
+>
 > If Explorer shows a generic icon, that is the icon cache — press <kbd>F5</kbd> or restart Explorer.
 
 ## Build from source

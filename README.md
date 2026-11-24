@@ -52,9 +52,17 @@
 ## 下载
 
 1. 打开 [**Releases**](https://github.com/Kreston8/KuroCat-Puppy/releases/latest)
-2. 下载 `小金毛桌宠.exe`
+2. 下载 `GoldenPuppy-DesktopPet-v1.0.0.exe`（就是"小金毛桌宠"本体，GitHub 只接受 ASCII 资产名，下载后想改名随意）
 3. 双击运行。Windows 10 / 11 x64，无需安装、无需运行库。
 
+SHA256（可与 `Get-FileHash .\GoldenPuppy-DesktopPet-v1.0.0.exe -Algorithm SHA256` 对照）：
+
+```
+07EC06B19D5E426C31586F79E26C4A94289058E403175F438BAA0E98F538965F
+```
+
+> 首次运行时 Windows 可能弹 SmartScreen（exe 未做代码签名），点"更多信息 → 仍要运行"。
+>
 > 若桌面图标显示成通用图标，是资源管理器的图标缓存，按 <kbd>F5</kbd> 刷新即可。
 
 ## 从源码构建
