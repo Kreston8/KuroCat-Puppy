@@ -6,7 +6,7 @@
 
 **一只住在你 Windows 桌面上的小金毛幼犬：坐在键盘上陪打字，头会跟着鼠标转。**
 
-[![Release](https://img.shields.io/badge/release-v1.0.0-f0a44a)](https://github.com/Kreston8/KuroCat-Puppy/releases/latest)
+[![Release](https://img.shields.io/badge/release-v1.0.1-f0a44a)](https://github.com/Kreston8/KuroCat-Puppy/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-3c6e9e)](#下载)
 [![License](https://img.shields.io/badge/license-MIT-2f8f5b)](LICENSE)
 
@@ -52,13 +52,13 @@
 ## 下载
 
 1. 打开 [**Releases**](https://github.com/Kreston8/KuroCat-Puppy/releases/latest)
-2. 下载 `GoldenPuppy-DesktopPet-v1.0.0.exe`（就是"小金毛桌宠"本体，GitHub 只接受 ASCII 资产名，下载后想改名随意）
+2. 下载 `GoldenPuppy-DesktopPet-v1.0.1.exe`（就是"小金毛桌宠"本体，GitHub 只接受 ASCII 资产名，下载后想改名随意）
 3. 双击运行。Windows 10 / 11 x64，无需安装、无需运行库。
 
-SHA256（可与 `Get-FileHash .\GoldenPuppy-DesktopPet-v1.0.0.exe -Algorithm SHA256` 对照）：
+SHA256（可与 `Get-FileHash .\GoldenPuppy-DesktopPet-v1.0.1.exe -Algorithm SHA256` 对照）：
 
 ```
-07EC06B19D5E426C31586F79E26C4A94289058E403175F438BAA0E98F538965F
+AF384DCFB68F1F842021E63B7D768A5553C87DA56C568EEA6D1C3FB30A77F4FD
 ```
 
 > 首次运行时 Windows 可能弹 SmartScreen（exe 未做代码签名），点"更多信息 → 仍要运行"。
