@@ -71,6 +71,13 @@ struct CatSettings {
         coatTheme        = (CatCoatTheme)std::clamp((int)readDword(L"CoatTheme", 4), 0, 4);
         keyboardTheme    = (KeyboardTheme)std::clamp((int)readDword(L"KeyboardTheme", 0), 0, 2);
         eyeTheme         = (EyeColorTheme)std::clamp((int)readDword(L"EyeTheme", 5), 0, 5);
+        // Window scale is persisted as a percentage (65/85/100/125/150). Older builds wrote
+        // ScalePct but never read it back, so the pet snapped to 1.0x after every restart /
+        // auto-start. Restore it here (and tolerate hand-edited/older values).
+        {
+            DWORD scalePct = readDword(L"ScalePct", 100);
+            if (scalePct >= 20 && scalePct <= 400) scale = (float)scalePct / 100.0f;
+        }
         DWORD hasPos     = readDword(L"HasPos", 0);
         if (hasPos) {
             posX = (int)readDword(L"PosX", 0);
